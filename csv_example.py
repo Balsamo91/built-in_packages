@@ -45,5 +45,6 @@ with open('example_dict.csv', 'w', newline='') as file:
 # REading using dict reader
     
 with open('example_dict.csv', 'r') as file:
-    writer = csv.DictReader(file)
-    print(writer)
+    reader = csv.DictReader(file)
+    for row in reader:
+        print(row)

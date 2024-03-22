@@ -32,6 +32,13 @@ operation = sys.argv[1]
 num1 = int(sys.argv[2])
 num2 = int(sys.argv[3])
 
+
+# num1 = sys.argv[2]
+# num2 = sys.argv[3]
+# If the above is run instead of int():
+# $ python3 sys_example.py add 2,2 44
+# The result of adding 2,2 and 44 is 2,244
+
 # print(operation, num1, num2)
 
 if operation == "add":
